@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.delegate = self
+        scrollView.delegate = self     
         
         for image in 0...2 {
             let imageToDisplay = UIImage(named: "\(image).png")
