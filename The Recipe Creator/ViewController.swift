@@ -15,12 +15,12 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func CestParti(_ sender: Any) {
     }
     
-    var contentWidth: CGFloat = 0.0
+    var contentWidth: CGFloat = 0.05  // 9999999
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.delegate = self     
+        scrollView.delegate = self
         
         for image in 0...2 {
             let imageToDisplay = UIImage(named: "\(image).png")
