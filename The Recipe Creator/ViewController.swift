@@ -15,7 +15,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func CestParti(_ sender: Any) {
     }
     
-    var contentWidth: CGFloat = 0.05  // 9999999
+    var contentWidth: CGFloat = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()

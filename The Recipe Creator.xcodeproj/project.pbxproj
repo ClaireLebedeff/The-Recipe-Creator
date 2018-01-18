@@ -14,7 +14,7 @@
 		491EAA7C200A3A40009A20A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491EAA7A200A3A40009A20A3 /* LaunchScreen.storyboard */; };
 		491EAA87200A3A41009A20A3 /* The_Recipe_CreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EAA86200A3A41009A20A3 /* The_Recipe_CreatorTests.swift */; };
 		491EAA92200A3A41009A20A3 /* The_Recipe_CreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EAA91200A3A41009A20A3 /* The_Recipe_CreatorUITests.swift */; };
-		B50A6E2E2010E3C100531CAD /* ingredientChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6E2D2010E3C100531CAD /* ingredientChoiceViewController.swift */; };
+		B50A6E322010F52C00531CAD /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6E312010F52C00531CAD /* IngredientViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		491EAA8D200A3A41009A20A3 /* The Recipe CreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Recipe CreatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491EAA91200A3A41009A20A3 /* The_Recipe_CreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Recipe_CreatorUITests.swift; sourceTree = "<group>"; };
 		491EAA93200A3A41009A20A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B50A6E2D2010E3C100531CAD /* ingredientChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ingredientChoiceViewController.swift; sourceTree = "<group>"; };
+		B50A6E312010F52C00531CAD /* IngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 				491EAA71200A3A40009A20A3 /* AppDelegate.swift */,
 				491EAA73200A3A40009A20A3 /* ViewController.swift */,
 				491EAA75200A3A40009A20A3 /* Main.storyboard */,
+				B50A6E312010F52C00531CAD /* IngredientViewController.swift */,
 				491EAA78200A3A40009A20A3 /* Assets.xcassets */,
 				491EAA7A200A3A40009A20A3 /* LaunchScreen.storyboard */,
 				491EAA7D200A3A40009A20A3 /* Info.plist */,
-				B50A6E2D2010E3C100531CAD /* ingredientChoiceViewController.swift */,
 			);
 			path = "The Recipe Creator";
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50A6E2E2010E3C100531CAD /* ingredientChoiceViewController.swift in Sources */,
 				491EAA74200A3A40009A20A3 /* ViewController.swift in Sources */,
+				B50A6E322010F52C00531CAD /* IngredientViewController.swift in Sources */,
 				491EAA72200A3A40009A20A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

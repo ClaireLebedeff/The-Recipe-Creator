@@ -37,7 +37,6 @@
                                         </state>
                                         <connections>
                                             <action selector="CestParti:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OaK-GA-qOO"/>
-                                            <segue destination="bZw-jH-2gd" kind="show" id="dSJ-2b-JuM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -70,13 +69,19 @@
                     <view key="view" contentMode="scaleToFill" id="L4b-Vn-OpW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M0B-gg-jVR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BEE-qx-Ndj"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NF1-8O-SWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873" y="134"/>
+            <point key="canvasLocation" x="872.79999999999995" y="133.5832083958021"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.32174847025712894" green="0.69428140862944154" blue="0.48856845593914033" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
